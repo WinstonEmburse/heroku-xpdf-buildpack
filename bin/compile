@@ -3,7 +3,7 @@
 set -e
 
 mkdir -p "$1/bin/"
-tar -xf binaries-$STACK/xpdf-tools-linux-4.00.tar.gz
+tar -xf binaries/xpdf-tools-linux-4.00.tar.gz
 cp -a xpdf-tools-linux-4.00/bin64/* "$1/bin/"
 echo "-----> heroku-xpdf-buildpack: Installed to app/bin."
 
