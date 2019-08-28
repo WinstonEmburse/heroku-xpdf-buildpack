@@ -1,5 +1,5 @@
 ## heroku-buildpack-xpdf
-This is xpdf buildpack for [Heroku-18 Stack](https://devcenter.heroku.com/articles/heroku-18-stack).
+This is xpdf buildpack for Heroku.
 
 ### Install
 You can add buildpack like this.
